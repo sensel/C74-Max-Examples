@@ -8,7 +8,12 @@ Each example is its own Project.
 ## Contacts To MPE
 This converts the contact data from the sensel object into MIDI Polyphonic Expression (MPE) data that you can pass on to a VST or other MPE synth. You may intially wonder at the value of this, since you can already slap on an overlay, create MPE notes, and play MPE synths. 
 
-Well, there's two good reasons. One, it's instructive on how to deal with the data from the Morph and turn it into something else. Second, you aren't restricted to a single area for a note. A note is triggered no matter where you put a finger (or other contact), and you are free to wander around on the entire Morph to make crazy sound. Believe me, it's cool.
+Well, there's two good reasons.
+One, it's instructive on how to deal with the data from the Morph and turn it into something else. 
+Two, you aren't restricted to a single area for a note. A note is triggered no matter where you put a finger (or other contact), and you are free to wander around on the entire Morph to make crazy sound. Believe me, it's cool.
+I lied, there are three good reasons. 
+Three, it makes it easy to incorporate an MPE plug-in as an audio source to anything else you are doing with the data. 
+
 
 ## Drawing Contacts
 This uses jitter to draw contacts as colorful circles, and assign text labels to each contact. It looks neat! 
