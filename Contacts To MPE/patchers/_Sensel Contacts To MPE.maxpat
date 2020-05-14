@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 943.0, 287.0, 524.0, 420.0 ],
+		"rect" : [ 642.0, 186.0, 513.0, 395.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,8 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.0, 271.0, 165.0, 60.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 281.0, 271.0, 166.0, 60.0 ],
 					"text" : "substitue a VST capable of MPE here if you like, such as Aalto, Quanta, Equator, Pigments, Serum, etc."
 				}
 
@@ -673,14 +672,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "SenselPolyNote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects-public-git/Sensel Max Examples/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects-public-git/C74-Max-Examples/Contacts To MPE/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mpesynth.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects-public-git/Sensel Max Examples/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects-public-git/C74-Max-Examples/Contacts To MPE/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
