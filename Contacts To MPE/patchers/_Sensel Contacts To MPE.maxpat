@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 642.0, 186.0, 513.0, 395.0 ],
+		"rect" : [ 1518.0, 761.0, 729.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,28 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"extract" : 1,
+					"id" : "obj-3",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "bp.Gigaverb.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 69.0, 319.0, 332.0, 116.0 ],
+					"varname" : "bp.Gigaverb",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"linecount" : 4,
@@ -89,7 +111,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.0, 335.0, 35.0, 22.0 ],
+					"patching_rect" : [ 183.0, 472.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -626,6 +648,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-38", 1 ]
 				}
@@ -647,7 +683,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
+					"destination" : [ "obj-3", 1 ],
 					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -655,7 +691,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -670,6 +706,22 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-3::obj-62" : [ "Dry", "Dry", 0 ],
+			"obj-3::obj-65" : [ "Spread", "Spread", 0 ],
+			"obj-3::obj-66" : [ "Time", "Time", 0 ],
+			"obj-3::obj-63" : [ "Early", "Early", 0 ],
+			"obj-3::obj-60" : [ "Damp", "Damp", 0 ],
+			"obj-3::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-3::obj-64" : [ "Tail", "Tail", 0 ],
+			"obj-3::obj-28" : [ "Size", "Size", 0 ],
+			"obj-3::obj-3" : [ "Regen", "Regen", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "SenselPolyNote.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects-public-git/C74-Max-Examples/Contacts To MPE/patchers",
@@ -681,6 +733,12 @@
 				"name" : "mpesynth.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects-public-git/C74-Max-Examples/Contacts To MPE/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Gigaverb.maxpat",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
