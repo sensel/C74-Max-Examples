@@ -1,0 +1,279 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mixer",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 1.386792421340942, 1.132075428962708, 0.886792480945587, 1.216981172561646, 1.141509413719177, 1.00943398475647, 1.0, 0.811320781707764, 1.132075428962708, 1.424528360366821, 1.113207578659058, 1.301886796951294, 1.160377383232117 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 0.0, 0.0, 0.0, 0.905660390853882, 0.0, 0.0, 0.0, 0.0, 0.0, 1.5, 1.141509413719177, 0.971698105335236, 0.99056601524353 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 1.5, 0.0, 0.0, 0.0, 0.0, 1.5, 0.584905683994293, 1.415094375610352, 0.0, 1.339622616767883, 1.358490586280823, 1.198113203048706, 0.886792480945587 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 1.5, 0.0, 1.141509413719177, 0.0, 1.198113203048706, 0.0, 0.754716992378235, 0.924528300762177, 0.0, 1.339622616767883, 1.113207578659058, 1.301886796951294, 0.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 1.49056601524353, 0.0, 1.273584961891174, 0.0, 0.0, 1.00943398475647, 1.433962225914001, 0.0, 0.0, 1.424528360366821, 0.0, 1.301886796951294, 0.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 1.386792421340942, 0.0, 0.0, 1.386792421340942, 0.0, 0.0, 0.0, 0.0, 0.0, 1.424528360366821, 1.320754766464233, 1.349056601524353, 0.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 0.0, 0.0, 1.226415038108826, 1.103773593902588, 1.283018827438354, 0.0, 0.0, 0.0, 1.132075428962708, 0.783018887042999, 1.113207578659058, 1.301886796951294, 0.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.132075428962708, 0.0, 1.113207578659058, 1.301886796951294, 0.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"vst~" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "++flipper",
+							"origin" : "++flipper.vst3",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "++flipper.vst3",
+								"plugindisplayname" : "++flipper",
+								"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"MIXER" : [ 0.013119859620929, 0.820754706859589, 0.587761700153351, 0.011513346806169, 0.010799339972436, 0.009549830108881, 1.112136602401733, 0.007675564382225, 1.019938945770264, 0.0, 0.608593106269836, 1.301886796951294, 0.0109778419137 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

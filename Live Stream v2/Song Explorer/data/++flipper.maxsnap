@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "++flipper",
+	"origin" : "++flipper.vst3",
+	"type" : "VST3",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "++flipper.vst3",
+		"plugindisplayname" : "++flipper",
+		"pluginsavedname" : "/Library/Audio/Plug-Ins/VST3/++flipper.vst3",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "731.VMjLgHs....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PSNy3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDTvXTR5AkaA4hKtfjcJgGVFIlKpAkKB4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAoWZUMTRSgzLC4hKtXWZYI2ZFIlcUwlXVE0ZOciKUAkTEQ0TlolQYgCRnkkbqYjX5slUgsVRBgTLEYTXvTkUOglKosDLXkGSzP0TLkGQ4wjdpMUSwvzTMQiYo0TdLkFR0MyPOAUQpQUPvPDRuEkUOg1MrM1ZIcTXmETaHYFVWgkbUcUV3fjPLg1Mn8zMtTETRUDUSYlZFkENHIzXqAiQhU2cwDVZywFRlg0UXIWUWkENHIDSncCZOciKUAkTEQ0TlolQYgCR3gUc2ESX3kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZpwVXsUjUZQWRBgTLEYTXvTkUOglKoszcXkGSx.0TNEiZC0zLHMTS3QzPNICUogTcyLzSPUjZTEDLDgzaQY0SnciUio2XVg0azvFRlg0UXIWUWkENHIDSncCZOcyMnkkbqYjX1UEahYUTq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+	}
+
+}
