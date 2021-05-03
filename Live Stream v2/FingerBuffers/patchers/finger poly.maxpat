@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 860.0, 79.0, 599.0, 444.0 ],
+		"rect" : [ 780.0, 94.0, 964.0, 767.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,41 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 102.0, 41.0, 196.0, 20.0 ],
+					"text" : "Simple per-finger granular example"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 464.0, 349.0, 48.0, 22.0 ],
+					"text" : "replace"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 324.0, 294.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -55,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.0, 282.0, 86.0, 20.0 ],
+					"patching_rect" : [ 283.0, 254.0, 86.0, 20.0 ],
 					"text" : "record a buffer"
 				}
 
@@ -83,17 +118,17 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 132.0, 229.0, 136.0, 30.0 ],
+					"patching_rect" : [ 125.915405000000021, 234.0, 136.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ -40 ],
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -40 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_initial_enable" : 1
 						}
 
 					}
@@ -123,7 +158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 251.253372000000013, 279.0, 24.0, 24.0 ]
+					"patching_rect" : [ 251.253372000000013, 251.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -520,7 +555,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
 					"patching_rect" : [ 226.0, 98.0, 172.0, 22.0 ],
-					"text" : "sensel @poll 40 @sensitivity 5"
+					"text" : "sensel @poll 10 @sensitivity 5"
 				}
 
 			}
@@ -588,6 +623,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-10", 1 ]
@@ -672,6 +714,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -695,6 +744,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
 					"order" : 2,
 					"source" : [ "obj-3", 0 ]
@@ -711,38 +768,31 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 332.5, 359.0, 393.0, 359.0, 393.0, 230.0, 260.753372000000013, 230.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-10.2::obj-22" : [ "number", "number", 0 ],
-			"obj-10.5::obj-22" : [ "number[6]", "number", 0 ],
-			"obj-10.8::obj-22" : [ "number[13]", "number", 0 ],
 			"obj-10.5::obj-15" : [ "number[5]", "number", 0 ],
-			"obj-10.6::obj-22" : [ "number[7]", "number", 0 ],
-			"obj-10.1::obj-15" : [ "number[15]", "number", 0 ],
-			"obj-10.4::obj-22" : [ "number[4]", "number", 0 ],
-			"obj-10.7::obj-22" : [ "number[12]", "number", 0 ],
-			"obj-10.8::obj-15" : [ "number[8]", "number", 0 ],
 			"obj-10.3::obj-15" : [ "number[2]", "number", 0 ],
-			"obj-10.2::obj-15" : [ "number[9]", "number", 0 ],
+			"obj-10.2::obj-22" : [ "number", "number", 0 ],
+			"obj-10.6::obj-22" : [ "number[7]", "number", 0 ],
+			"obj-10.4::obj-22" : [ "number[4]", "number", 0 ],
+			"obj-10.7::obj-15" : [ "number[11]", "number", 0 ],
+			"obj-10.8::obj-22" : [ "number[13]", "number", 0 ],
+			"obj-26" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-10.1::obj-15" : [ "number[15]", "number", 0 ],
+			"obj-10.3::obj-22" : [ "number[1]", "number", 0 ],
 			"obj-10.4::obj-15" : [ "number[3]", "number", 0 ],
 			"obj-10.6::obj-15" : [ "number[10]", "number", 0 ],
-			"obj-10.7::obj-15" : [ "number[11]", "number", 0 ],
-			"obj-10.3::obj-22" : [ "number[1]", "number", 0 ],
+			"obj-10.5::obj-22" : [ "number[6]", "number", 0 ],
+			"obj-10.7::obj-22" : [ "number[12]", "number", 0 ],
+			"obj-10.2::obj-15" : [ "number[9]", "number", 0 ],
+			"obj-10.8::obj-15" : [ "number[8]", "number", 0 ],
 			"obj-10.1::obj-22" : [ "number[14]", "number", 0 ],
-			"obj-26" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -751,7 +801,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "abuffer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects-public-git/C74-Max-Examples/Live Stream v2/FingerBuffers/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/C74-Max-Examples/Live Stream v2/FingerBuffers/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -765,7 +815,6 @@
 		"styles" : [ 			{
 				"name" : "Luca",
 				"default" : 				{
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -776,12 +825,13 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"fontname" : [ "Open Sans Semibold" ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

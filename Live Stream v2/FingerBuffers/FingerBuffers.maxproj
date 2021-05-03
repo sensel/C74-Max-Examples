@@ -2,8 +2,8 @@
 	"name" : "FingerBuffers",
 	"version" : 1,
 	"creationdate" : 3645775199,
-	"modificationdate" : 3672048196,
-	"viewrect" : [ 112.0, 388.0, 300.0, 500.0 ],
+	"modificationdate" : 3674710713,
+	"viewrect" : [ 128.0, 173.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -18,8 +18,13 @@
 ,
 			"finger poly.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
