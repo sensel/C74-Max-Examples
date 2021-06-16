@@ -5,6 +5,10 @@ Each example is its own Project.
 
 # The Examples
 
+## YouTube Tutorials
+
+Much of the content in this repo is covered in a series of YouTube tutorials in a [video playlist](https://youtube.com/playlist?list=PLsWyZNIPvUrfU7hVl1R9YU1h9v4DFONV5).
+
 ## Contacts To MPE
 This converts the contact data from the sensel object into MIDI Polyphonic Expression (MPE) data that you can pass on to a VST or other MPE synth. You may intially wonder at the value of this, since you can already slap on an overlay, create MPE notes, and play MPE synths. 
 
