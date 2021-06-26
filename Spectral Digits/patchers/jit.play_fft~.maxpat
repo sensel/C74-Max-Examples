@@ -57,10 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 481.0, 66.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -72,7 +68,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 102.0, 220.0, 67.0, 22.0 ],
+					"patching_rect" : [ 102.0, 265.0, 67.0, 22.0 ],
 					"text" : "clip~ 0 300"
 				}
 
@@ -110,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 276.0, 102.0, 20.0 ],
+					"patching_rect" : [ 48.0, 321.0, 102.0, 20.0 ],
 					"text" : "amp/phase to x/y."
 				}
 
@@ -123,7 +119,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 304.0, 80.0, 20.0 ],
+					"patching_rect" : [ 69.0, 349.0, 80.0, 20.0 ],
 					"text" : "ifft to patcher."
 				}
 
@@ -136,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 211.0, 137.0, 20.0 ],
+					"patching_rect" : [ 327.0, 256.0, 137.0, 20.0 ],
 					"text" : "compute running phase."
 				}
 
@@ -177,7 +173,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 147.0, 304.0, 59.0, 22.0 ],
+					"patching_rect" : [ 147.0, 349.0, 59.0, 22.0 ],
 					"text" : "fftout~ 1"
 				}
 
@@ -191,7 +187,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 147.0, 275.0, 59.0, 22.0 ],
+					"patching_rect" : [ 147.0, 320.0, 59.0, 22.0 ],
 					"text" : "poltocar~"
 				}
 
@@ -205,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 248.0, 211.0, 81.0, 22.0 ],
+					"patching_rect" : [ 248.0, 256.0, 81.0, 22.0 ],
 					"text" : "frameaccum~"
 				}
 
@@ -219,8 +215,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 248.0, 182.0, 131.0, 22.0 ],
-					"text" : "jit.peek~ FFT_main 2 1"
+					"patching_rect" : [ 248.0, 182.0, 143.0, 22.0 ],
+					"text" : "jit.peek~ ---FFT_main 2 1"
 				}
 
 			}
@@ -233,8 +229,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 102.0, 182.0, 128.0, 22.0 ],
-					"text" : "jit.peek~ FFT_mod 2 0"
+					"patching_rect" : [ 102.0, 182.0, 140.0, 22.0 ],
+					"text" : "jit.peek~ ---FFT_mod 2 0"
 				}
 
 			}
@@ -272,7 +268,7 @@
 				"patchline" : 				{
 					"color" : [ 0.317647, 0.709804, 0.321569, 1.0 ],
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 164.5, 76.0, 220.5, 76.0 ],
+					"midpoints" : [ 164.5, 76.0, 232.5, 76.0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 2 ]
 				}
@@ -282,7 +278,7 @@
 				"patchline" : 				{
 					"color" : [ 0.317647, 0.709804, 0.321569, 1.0 ],
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 164.5, 80.0, 369.5, 80.0 ],
+					"midpoints" : [ 164.5, 80.0, 381.5, 80.0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 2 ]
 				}
@@ -299,7 +295,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 112.5, 106.0, 257.5, 106.0 ],
 					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
@@ -315,6 +310,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 2 ],
+					"midpoints" : [ 490.5, 254.5, 159.5, 254.5 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -355,6 +351,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 	}
 

@@ -45,7 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 819.0, 447.0, 82.0, 22.0 ]
+					"patching_rect" : [ 819.0, 447.0, 82.0, 22.0 ],
+					"text" : "dim 44100 0"
 				}
 
 			}
@@ -116,19 +117,6 @@
 , 			{
 				"box" : 				{
 					"format" : 6,
-					"id" : "obj-25",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1089.5, 334.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
 					"id" : "obj-21",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -189,7 +177,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 942.0, 334.0, 109.5, 22.0 ],
-					"text" : "/"
+					"text" : "/ 1024"
 				}
 
 			}
@@ -252,8 +240,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 942.0, 437.0, 180.0, 22.0 ],
-					"text" : "jit.matrix FFT_main 2 float32 1 1"
+					"patching_rect" : [ 942.0, 437.0, 192.0, 22.0 ],
+					"text" : "jit.matrix ---FFT_main 2 float32 1 1"
 				}
 
 			}
@@ -378,8 +366,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 406.0, 131.0, 22.0 ],
-					"text" : "jit.poke~ FFT_main 2 1"
+					"patching_rect" : [ 256.0, 406.0, 143.0, 22.0 ],
+					"text" : "jit.poke~ ---FFT_main 2 1"
 				}
 
 			}
@@ -562,8 +550,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 406.0, 131.0, 22.0 ],
-					"text" : "jit.poke~ FFT_main 2 0"
+					"patching_rect" : [ 16.0, 406.0, 143.0, 22.0 ],
+					"text" : "jit.poke~ ---FFT_main 2 0"
 				}
 
 			}
@@ -967,17 +955,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"order" : 0,
-					"source" : [ "obj-48", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
 					"midpoints" : [ 998.0, 249.524459838867188, 731.0, 249.524459838867188 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-48", 1 ]
 				}
 
@@ -985,7 +965,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-48", 1 ]
 				}
 

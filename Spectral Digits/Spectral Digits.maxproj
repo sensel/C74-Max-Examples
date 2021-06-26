@@ -2,7 +2,7 @@
 	"name" : "Spectral Digits",
 	"version" : 1,
 	"creationdate" : 3706246107,
-	"modificationdate" : 3706695922,
+	"modificationdate" : 3707374044,
 	"viewrect" : [ 25.0, 97.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -62,12 +62,31 @@
 ,
 			"basic_sample_load.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"poly_fingerspectrum.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Spectral Massage.amxd" : 			{
+				"kind" : "maxforlive",
+				"local" : 1
+			}
+,
+			"MaskFromContacts.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mdrawContact.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Spectral Massage_contacts.amxd" : 			{
+				"kind" : "maxforlive",
 				"local" : 1
 			}
 
