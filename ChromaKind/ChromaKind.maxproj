@@ -2,8 +2,8 @@
 	"name" : "ChromaKind",
 	"version" : 1,
 	"creationdate" : 3702901079,
-	"modificationdate" : 3702901377,
-	"viewrect" : [ 25.0, 103.0, 300.0, 500.0 ],
+	"modificationdate" : 3703233073,
+	"viewrect" : [ 7.0, 83.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"basic force image.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
