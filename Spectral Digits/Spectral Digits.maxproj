@@ -2,7 +2,7 @@
 	"name" : "Spectral Digits",
 	"version" : 1,
 	"creationdate" : 3706246107,
-	"modificationdate" : 3707374044,
+	"modificationdate" : 3707498886,
 	"viewrect" : [ 25.0, 97.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -41,11 +41,6 @@
 			}
 ,
 			"simple_jitter_fft.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"jit.playfft~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
