@@ -2,7 +2,7 @@
 	"name" : "Spectral Digits",
 	"version" : 1,
 	"creationdate" : 3706246107,
-	"modificationdate" : 3707498886,
+	"modificationdate" : 3707842287,
 	"viewrect" : [ 25.0, 97.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -82,6 +82,11 @@
 ,
 			"Spectral Massage_contacts.amxd" : 			{
 				"kind" : "maxforlive",
+				"local" : 1
+			}
+,
+			"mdrawContact_nop.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 
