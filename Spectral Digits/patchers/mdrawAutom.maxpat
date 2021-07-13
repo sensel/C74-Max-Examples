@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 787.0, 178.0, 788.0, 649.0 ],
+		"rect" : [ 787.0, 178.0, 795.0, 897.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,10 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 581.0, 51.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -109,6 +105,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 574.0, 581.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 2"
 				}
 
@@ -219,9 +219,9 @@
 					"patching_rect" : [ 468.833333333333371, 340.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "draw_F[39]",
+							"parameter_longname" : "draw_F",
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "draw_F",
+							"parameter_shortname" : "draw_F[1]",
 							"parameter_speedlim" : 10.0,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -245,9 +245,9 @@
 					"patching_rect" : [ 78.0, 340.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "draw_X[39]",
+							"parameter_longname" : "draw_X",
 							"parameter_mmax" : 230.0,
-							"parameter_shortname" : "draw_X",
+							"parameter_shortname" : "draw_X[1]",
 							"parameter_speedlim" : 10.0,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -271,7 +271,7 @@
 					"patching_rect" : [ 692.0, 340.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "draw_Area[39]",
+							"parameter_longname" : "draw_Area[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "draw_Area",
 							"parameter_speedlim" : 10.0,
@@ -297,9 +297,9 @@
 					"patching_rect" : [ 203.0, 345.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "draw_Y[39]",
+							"parameter_longname" : "draw_Y",
 							"parameter_mmax" : 130.0,
-							"parameter_shortname" : "draw_Y",
+							"parameter_shortname" : "draw_Y[1]",
 							"parameter_speedlim" : 10.0,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -388,11 +388,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.0, 744.0, 1037.0, 22.0 ],
+					"patching_rect" : [ 83.0, 744.0, 277.0, 76.0 ],
 					"text" : "pattern_create_radial foo $1 $2 1 $3 $2 1, pattern_add_color_stop_rgba foo 0. 1 1 1 $7, pattern_add_color_stop_rgba foo 1. 1 1 1 $8, ellipse $4 $5 $6 $6, set_source foo, fill, pattern_destroy foo"
 				}
 
@@ -404,6 +405,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 83.0, 846.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -416,10 +421,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 86.5, 29.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -843,6 +844,20 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-13" : [ "draw_Area[1]", "draw_Area", 0 ],
+			"obj-6" : [ "draw_X", "draw_X[1]", 0 ],
+			"obj-8" : [ "draw_F", "draw_F[1]", 0 ],
+			"obj-9" : [ "draw_Y", "draw_Y[1]", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "tap",
 				"default" : 				{
