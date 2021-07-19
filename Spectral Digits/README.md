@@ -11,3 +11,6 @@ Drag a sound over the left side of the device, or open a photograph. Start touch
 
 ## Max For Live
 Working with Max for Live is a bit tricky with this because editing the device will possibly cause a crash, since two applications (Max and Live) will try to make a serial connection to the Morph. As a result, it's generally wise to unplug the Morph when pressing the 'edit' button in Max for Live. If you have the full version of Max, you can just edit the .amxd file in Max. 
+
+## Not MIDI
+This device doesn't use MIDI. When you connect your Morph and this device is present, it connects as a serial device, so you won't be able to use overlays, MIDI, or MPE. 
